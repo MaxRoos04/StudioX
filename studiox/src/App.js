@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 
+
 const App = () => {
   return (
     <div>
