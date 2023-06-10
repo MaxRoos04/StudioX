@@ -14,7 +14,7 @@ const AboutUs = () => {
           />
           </div>
           <div className="md:w-1/2 md:pl-8 mt-6 md:mt-0">
-            <h3 className="text-2xl font-bold mb-4 mt-20">Who We Are</h3>
+            <h3 className="text-2xl font-bold mb-4 mt-40">Who We Are</h3>
             <p className="text-gray-700 mb-6">
               StudioX is a leading website designing company dedicated to creating stunning and
               user-friendly websites for businesses of all sizes. We combine innovative design

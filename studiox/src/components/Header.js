@@ -13,7 +13,7 @@ const Header = () => {
           We Design <span className="text-blue-500">Beautiful Websites</span> that Inspire.
         </p>
         <a
-          href="#contact"
+          href="#services"
           className="inline-block mt-8 px-6 py-3 text-lg font-medium text-white uppercase bg-blue-500 hover:bg-blue-600 rounded-lg"
         >
           Get Started
