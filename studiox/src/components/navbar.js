@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,8 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <span className="text-white text-2xl font-bold">StudioX
-             </span>
+            <span className="text-white text-2xl font-bold">StudioX</span>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <button
@@ -60,12 +58,12 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <a
-              
+            <Link
+              to="/Portfolio"
               className="ml-8 whitespace-nowrap text-base font-medium text-gray-300 hover:text-white"
             >
               Previous Work
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -84,12 +82,12 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <a
-              href="#contact"
+            <Link
+              to="/Portfolio"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700"
             >
               Previous Work
-            </a>
+            </Link>
           </div>
         </div>
       )}

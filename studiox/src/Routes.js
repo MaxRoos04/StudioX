@@ -1,21 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
+import { Route } from 'react-router-dom';
+import HomePage from './components/Services';
 import PreviousWork from './Pages/PreviousWork';
 
-const App = () => {
-  return (
-    <div>
-      <Router>
-      <Switch>
-        <Route exact path="/" component={Header} />
-        <Route path="/Portfolio" component={PreviousWork} /> {/* Add the route for the AboutPage */}
-      </Switch>
-    </Router>
+const routes = [
+  {
+    path: '/',
+    component: HomePage,
+    exact: true
+  },
+  {
+    path: '/about',
+    component: PreviousWork,
+    exact: true
+  },
+];
 
-     
-    </div>
-  );
-};
-
-export default App;
+export default routes;
