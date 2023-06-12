@@ -1,21 +1,21 @@
 import React from 'react';
+import project1Image from '../assets/images/PW1.png';
+import project2Image from '../assets/images/PW2.png';
+import project3Image from '../assets/images/PW3.png';
 
 const PreviousWork = () => {
   const projects = [
     {
-      title: 'Project 1',
-      image: '/path/to/project1-image.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Personal Portfolio Site',
+      image: project1Image,
     },
     {
-      title: 'Project 2',
-      image: '/path/to/project2-image.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Professional Website',
+      image: project2Image,
     },
     {
-      title: 'Project 3',
-      image: '/path/to/project3-image.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Movie Webiste',
+      image: project3Image,
     },
   ];
 
