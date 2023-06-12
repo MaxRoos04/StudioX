@@ -53,17 +53,16 @@ const Navbar = () => {
               Services
             </a>
             <a
-              href="#contact"
+              href="#AboutUs"
               className="ml-8 whitespace-nowrap text-base font-medium text-gray-300 hover:text-white"
             >
               Contact
             </a>
-            <Link
-              to="/Portfolio"
+            <a
               className="ml-8 whitespace-nowrap text-base font-medium text-gray-300 hover:text-white"
             >
               Previous Work
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -77,17 +76,16 @@ const Navbar = () => {
               Services
             </a>
             <a
-              href="#contact"
+              href="#AboutUs"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700"
             >
               Contact
             </a>
-            <Link
-              to="/Portfolio"
+            <a
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700"
             >
               Previous Work
-            </Link>
+            </a>
           </div>
         </div>
       )}

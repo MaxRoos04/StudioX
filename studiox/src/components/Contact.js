@@ -20,6 +20,7 @@ const ContactForm = () => {
   };
 
   return (
+    <section id="AboutUs">
     <form onSubmit={handleSubmit} className="max-w-xl mx-auto">
       <div className="mb-4 mt-40">
         <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
@@ -69,6 +70,7 @@ const ContactForm = () => {
         Submit
       </button>
     </form>
+  </section>
   );
 };
 
