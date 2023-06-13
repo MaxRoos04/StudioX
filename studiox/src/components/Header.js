@@ -5,7 +5,7 @@ import headerImage from '../assets/images/header-image.jpg';
 const Header = () => {
   return (
     <header className="relative bg-gray-900 overflow-hidden">
-      <div className="relative z-10 px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="relative z-10 px-4 py-40 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <h1 className="text-5xl font-bold text-white leading-tight sm:text-6xl">
           Welcome to <span className="text-blue-500">StudioX</span>
         </h1>
