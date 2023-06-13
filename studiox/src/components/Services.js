@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Services = () => {
+  
   const handlePurchase = (packageType) => {
     // Handle the purchase logic here
     console.log(`Package purchased: ${packageType}`);
@@ -26,12 +27,12 @@ const Services = () => {
               <p className="text-2xl font-bold">499€</p>
             </div>
             <div className="flex justify-center mt-6">
-              <button
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
-                onClick={() => handlePurchase('Standard Package')}
-              >
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+              onClick={() => handlePurchase('Deluxe Package')}
+            >
                 Purchase
-              </button>
+             </button>
             </div>
           </div>
         </div>
@@ -52,12 +53,12 @@ const Services = () => {
               <p className="text-2xl font-bold">799€</p>
             </div>
             <div className="flex justify-center mt-6">
-              <button
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
-                onClick={() => handlePurchase('Premium Package')}
-              >
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+              onClick={() => handlePurchase('Deluxe Package')}
+            >
                 Purchase
-              </button>
+             </button>
             </div>
           </div>
         </div>
@@ -80,12 +81,12 @@ const Services = () => {
               <p className="text-2xl font-bold">1299€</p>
             </div>
             <div className="flex justify-center mt-6">
-              <button
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
-                onClick={() => handlePurchase('Deluxe Package')}
-              >
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+              onClick={() => handlePurchase('Deluxe Package')}
+            >
                 Purchase
-              </button>
+             </button>
             </div>
           </div>
         </div>
