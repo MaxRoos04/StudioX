@@ -1,4 +1,4 @@
-# Project Name
+# StudioX
 
   <img src="https://cdn.discordapp.com/attachments/746464734664065175/1118558746264748052/image.png" width="100" height="33" alt="Header Image">
 
