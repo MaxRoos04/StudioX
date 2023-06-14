@@ -15,26 +15,23 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Send email using Email.js
     emailjs.send(
-      'service_w939k1b', // Replace with your Service ID from Email.js
-      'template_vxno5ks', // Replace with your Template ID from Email.js
+      'service_w939k1b', 
+      'template_vxno5ks', 
       {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
       },
-      'zdEHCokMGgyduA4f8' // Replace with your User ID from Email.js
+      'zdEHCokMGgyduA4f8' 
     )
       .then((response) => {
         console.log('Email sent:', response.status, response.text);
-        // Reset the form
         setFormData({ name: '', email: '', message: '' });
-        // Show success message or perform other actions
       })
       .catch((error) => {
         console.error('Email error:', error);
-        // Show error message or perform other actions
+
       });
   };
 
