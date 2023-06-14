@@ -1,6 +1,6 @@
 # Project Name
 
-[https://cdn.discordapp.com/attachments/746464734664065175/1118558746264748052/image.png]
+![https://cdn.discordapp.com/attachments/746464734664065175/1118558746264748052/image.png]
 
 A verry simple website for a webdesign studio 
 
@@ -10,7 +10,7 @@ A verry simple website for a webdesign studio
 - [Features](#features)
 - [Pictures](#pictures)
 - [Installation](#installation)
-- 
+
 ## Introduction
 
 The website is bulit in react.js with the help of tailwind.css. Its a verry simple website which has a fully functional purchase and contact system. The purchase system is made with sellix.io and the contact page is done with Email.js. 
