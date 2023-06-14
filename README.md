@@ -33,7 +33,7 @@ Key features and functionalities of the website.
 
 ## Installation
 
-This is a step by step tutorial to install all the node modules you need and how to run the site with localhost 
+This is a step by step tutorial to install all the node modules you need and how to run the site with localhost. 
 
 ```shell
 $ npm install
