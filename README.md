@@ -1,6 +1,6 @@
 # Project Name
 
-![https://cdn.discordapp.com/attachments/746464734664065175/1118558746264748052/image.png]
+!["https://cdn.discordapp.com/attachments/746464734664065175/1118558746264748052/image.png"]
 
 A verry simple website for a webdesign studio 
 
