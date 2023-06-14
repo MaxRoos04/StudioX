@@ -17,7 +17,7 @@ The website is bulit in react.js with the help of tailwind.css. Its a verry simp
 
 ## Features
 
-List the key features and functionalities of your project. Use bullet points or a table to present them clearly.
+Key features and functionalities of the website. 
 
 - Sellix.io: Fully functional purchase system. 
 - Email.js: Fully functional contact page.
@@ -25,9 +25,6 @@ List the key features and functionalities of your project. Use bullet points or 
 
 ## Pictures
 
-
-<h3>Webdesign Studio Website</h3>
-</br>
 <img src="https://cdn.discordapp.com/attachments/746464734664065175/1118134257768992788/image.png"></img>
 </br>
 <img src="https://cdn.discordapp.com/attachments/746464734664065175/1118135202514997279/image.png"></img>
@@ -38,7 +35,7 @@ List the key features and functionalities of your project. Use bullet points or 
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites required.
+This is a step by step tutorial to install all the node modules
 
 ```shell
 $ npm install
